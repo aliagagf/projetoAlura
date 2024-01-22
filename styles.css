@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+body {
+    background-color: lightblue;
+}
+
+h1{
+    color: #FFF
+}
+
+.sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    padding: 12px;
+    width: 300px;
+}
+
+.sidebar_navigation {
+    background-color: black;
+    border-radius: 16px;
+    padding: 16px 0 0 16px;
+    margin-bottom: 4px;
+}
+
+.sidebar_navigation .logo {
+    background: black;
+    display: flex;
+    border-radius:8px;
+    padding: 16px 0 0 16px; 
+}
+
+.sidebar_navigation .logo img{
+    width: 80px;
+}
+
+.sidebar nav ul {
+    margin-top: 20px;
+    padding: 0 20px 10px 16px;
+}
+
+.sidebar nav ul li{
+    padding: 10px 0;
+}
+.sidebar nav ul li a{
+    color: #b3b3b3;
+    text-decoration: none;
+    font-weight: 6000;
+    font-size: 14px;
+    font-family: "Inter", sans-serif;
+}
+
+.sidebar_navigation_2 {
+    background:black;
+    color:#b3b3b3;
+    border-radius: 16px;
+    padding:12px;
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+}
+
+.sidebar_navigation_2 a{
+    color: #b3b3b3;
+    text-decoration: none;
+    font-family: "Inter", sans-serif;
+    gap: 12px;
+    display: flex;
+    align-items: flex-start;
+    padding: 16px;
+    font-size:14px;
+}
+
+div a span:nth-child(3) {
+    margin-left: auto;
+}
+.sidebar_navigation_2 .quadrado{
+    background-color: #1d1d1d;  
+    border-radius: 16px;
+    text-align:center;
+    padding: 16px 20px 10px 16px;
+    color:#b3b3b3;
+    font-family:"Inter", "sans-serif";
+    font-size:14px;
+    display: flex;
+    flex-direction: column;
+}
+
+.quadrado .playlist {
+    color:#b3b3b3;
+    font-family: "Inter", sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    margin-bottom: 12px;
+}
+
+.quadrado .button{
+    margin: 20px 36px;
+    background: #b3b3b3;
+    color: black;
+    font-weight: bolder;
+    text-align: center;
+    font-size: 16px;
+    font-family: "Inter", "sans-serif";
+    padding:12px 4px;
+    border-radius:48px;
+}
