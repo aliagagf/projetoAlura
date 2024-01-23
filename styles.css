@@ -18,17 +18,17 @@ h1{
 }
 
 .sidebar_navigation {
-    background-color: black;
+    background-color: #121212;
     border-radius: 16px;
-    padding: 16px 0 0 16px;
+    padding: 10px 0 0 10px;
     margin-bottom: 4px;
 }
 
 .sidebar_navigation .logo {
-    background: black;
+    background: #121212;
     display: flex;
     border-radius:8px;
-    padding: 16px 0 0 16px; 
+    padding: 16px 0 0 10px; 
 }
 
 .sidebar_navigation .logo img{
@@ -37,7 +37,7 @@ h1{
 
 .sidebar nav ul {
     margin-top: 20px;
-    padding: 0 20px 10px 16px;
+    padding: 0 20px 10px 10px;
 }
 
 .sidebar nav ul li{
@@ -51,74 +51,129 @@ h1{
     font-family: "Inter", sans-serif;
 }
 
-.sidebar_navigation_2 {
-    background:black;
-    color:#b3b3b3;
-    border-radius: 16px;
-    padding:12px;
+.library {
+    background-color: #121212;
+    border-radius:8px;
     display: flex;
+    justify-content: space-between;
     flex-direction: column;
-    height: 500px;
-}
-
-.sidebar_navigation_2 a{
-    color: #b3b3b3;
-    text-decoration: none;
-    font-family: "Inter", sans-serif;
-    gap: 12px;
-    display: flex;
-    align-items: flex-start;
-    padding: 16px;
-    font-size:14px;
-}
-
-div a span:nth-child(3) {
-    margin-left: auto;
-}
-.sidebar_navigation_2 .quadrado{
-    background-color: #1d1d1d;  
-    border-radius: 16px;
-    text-align:center;
-    padding: 16px 20px 10px 16px;
+    padding: 4px 8px;
     color:#b3b3b3;
-    font-family:"Inter", "sans-serif";
+    font-weight: 600;
     font-size:14px;
+    margin-top:10px;
+}
+
+.library .library_content{
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    justify-content: space-between;
+    cursor:pointer;
 }
 
-.quadrado .playlist {
+.library .library_button {
+    display:flex;
+    margin-right:10px;
     color:#b3b3b3;
-    font-family: "Inter", sans-serif;
-    font-weight: bold;
-    font-size: 16px;
-    margin-bottom: 12px;
-}
-
-.quadrado a {
-    margin-top: 20px;
-    background: #b3b3b3;
-    border-radius:48px;
-    color:black;
-    font-weight: bolder;
-    text-align:center;
+    background-color:transparent;
+    border:0px;
     font-size: 14px;
-    font-family: "Inter", "sans-serif";
-    padding: 11px 20px 12px 20px;
-    height:17px;
-    width:100px;
-    justify-content: center;
-    align-items: center;
-
+    font-weight: 700;
+    font-family: "Inter", sans-serif;
+    text-align:center;
+    text-decoration:none;
+    text-transform: none;
+    padding:20px 10px;
+    cursor:pointer;
 }
-.quadrado .button{
-    margin-left: 40px;
-    display: inline-flex;
-    color: black;
-    font-weight: bolder;
-    text-align: center;
-    font-size: 16px;
-    font-family: "Inter", "sans-serif";
-    
+
+.library .library_button .fa {
+    font-size:20px;
+    margin-right:10px;
+    font-weight: 300;
+    padding-right:8px;
+}
+
+.library .library_content .fa-plus {
+    margin:24px 10px;
+}
+
+.library .section-playlist {
+    display: flex;
+    align-items:flex-start;
+    justify-content: space-between;
+    gap: 20px;
+    background-color: #242424;
+    color:#b3b3b3;
+    font-weight:600;
+    font-size:14px;
+    margin:8px 0;
+    padding: 16px 20px;
+    border-radius:10px;
+}
+
+.section-playlist .section-playlist_content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+} 
+
+.section-playlist_content .text{
+    padding-bottom:14px;
+    color:#fff;
+    font-family:"Inter", sans-serif;
+}
+
+.section-playlist_content .title{
+    font-weight:700;
+}
+
+.section-playlist_content .subtitle{
+    font-weight:500;
+    font-size:12px;
+}
+
+.section-playlist_content .section-playlist_button {
+    display:flex;
+    justify-content: center;
+    background-color: #fff;
+    color:#000;
+    border-radius:20px;
+    font-size:12px;
+    font-weight:700;
+    font-family: "Inter", sans-serif;
+    text-decoration:none;
+    text-transform: none;
+    padding: 10px;
+    border:0px;
+    width: 113px;
+    margin-top:12px;
+    cursor:pointer;
+}
+
+.sidebar .cookies {
+    margin: 30px 20px 0 20px;
+}
+
+.sidebar .cookies a{
+    color:#b3b3b3;
+    font-weight:500;
+    font-size:10px;
+    text-decoration:none;
+}
+
+.sidebar .cookies a:hover{
+    text-decoration:underline;
+}
+
+.sidebar .languages .languages_button{
+    align-items: center;
+    background-color: transparent;
+    border:1px solid #878787;
+    color:#fff;
+    font-weight: bold;
+    cursor: pointer;
+    width:170px;
+    margin: 8px;
+    padding:8px;
+    border-radius: 20px;
 }
