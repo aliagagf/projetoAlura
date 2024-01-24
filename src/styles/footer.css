@@ -1,0 +1,42 @@
+.premium {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: linear-gradient(to right, #ae2896, #509bf5);
+    padding: 15px 40px;
+    display: flex;
+    justify-content: space-between;
+    font-family: var(--font-inter);
+    margin-top:12px;
+}
+
+.premium .premium_info{
+    display: flex;
+    justify-content:flex-start;
+    flex-direction: column;
+    color: #fff;
+}
+
+.premium .premium_info .premium_title {
+    font-weight: bold;
+    font-size: 14px;
+    padding: 8px 2px;
+}
+
+.premium .premium_info .premium_subtitle {
+    font-size: 12px;
+    padding: 8px 2px;
+}
+
+.premium .premium_button button {
+    background-color: #ffffff;
+    color: #000000;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 14px 30px;
+    border: 0px;
+    border-radius: 40px;
+    cursor: pointer;
+    flex-shrink: 0;
+}

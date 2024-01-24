@@ -1,0 +1,25 @@
+body {
+    background-color: black;
+    font-family: var(--font-inter);
+}
+
+.welcome {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-direction: column;
+    margin-top:16px;
+}
+
+.welcome .hi {
+    padding: 16px;
+    color:#fff;
+    font-weight: bold;
+    font-size: 32px;
+}
+
+.welcome .navigate {
+    padding: 8px 16px;
+    color:#fff;
+    font-size: 12px;
+}
